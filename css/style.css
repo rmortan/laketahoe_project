@@ -87,7 +87,7 @@ a:active {
 .main-header {
   padding-top: 170px;
   height: 850px;
- background: linear-gradient(#740000, transparent 90%),
+ background: linear-gradient(#FF000080, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
               #7e0000 url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
