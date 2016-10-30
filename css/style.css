@@ -66,7 +66,7 @@ li {
 /* Pseudo-classes ------------------ */
 
 a:link {
-  color: rgb(251, 0, 0);
+  color: rgb(11, 71, 216);
   text-decoration: none;}
 
 a:visited {
@@ -83,9 +83,9 @@ a:active {
 .main-header {
   padding-top: 170px;
   height: 850px;
-  background: linear-gradient(#FF000080, transparent 90%),
+  background: linear-gradient(#8c9fff, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
-              #7e0000 url('../img/mountains.jpg') no-repeat center;
+              #7e0000 url('../img/IMG_5187.jpg') no-repeat center;
   background-size: cover;
   color: white;}
 
@@ -146,7 +146,7 @@ a:active {
   padding: 18% 24%;
   border-top: 10px solid #ab110c80;
   margin: 105px 0 60px;
-  background: #434a52 url('../img/bear.jpg') no-repeat center;
+  background: #434a52 url('../img/IMG_5183.jpg') no-repeat center;
   background-size: cover;
   box-shadow:  -4px 6px 21px 17px rgba(0,0,0, .8);
   border-radius: 1px;}
