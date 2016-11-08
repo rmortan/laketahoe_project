@@ -1,0 +1,112 @@
+* {
+	box-sizing: border-box;}
+body {
+	font-family: 'Nunito', sans-serif;
+	line-height: 1.5;
+	color: #384047;
+	padding: 40px 0;}
+p {
+	font-family: sans-serif;
+	margin-bottom: 24px;}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px dotted rgba(0, 0, 0, 0.2);
+  margin: 50px 0;}
+h1,
+h2 {
+  margin: 0 0 30px 0;}
+
+nav a {
+	font-size: .9em;
+	background: rgba(79, 113, 255, 0.32);
+	margin: 10px 10px 0px 10px;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	padding: 3px 8px 0px 0px;
+	border-radius: 13px;}
+
+nav a:hover {
+	opacity: .75;}
+
+/* Main -------------------- */
+
+.main-header {
+  padding-top: 20px;
+  height: 850px;
+  background: linear-gradient(#8c9fff, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #7e0000 url('../img/IMG_5187.jpg') no-repeat center;
+  background-size: cover;
+  color: white;}
+
+.main-header2 {
+  padding-top: 20px;
+  height: 850px;
+  background: linear-gradient(#8c9fff, transparent 90%),
+              linear-gradient(10deg, #fff, transparent),
+              #7e0000 url('../img/cyborghuman.jpg') no-repeat center;
+  background-size: cover;
+  color: white;}
+
+#container {
+	max-width: 1100px;
+	margin: auto;}
+
+.row {
+	padding-top: 40px;}
+
+.col {
+	float: left;
+	width: 32.421%;
+	padding: 15px;}
+
+
+.btn {
+  font-size: 0.875em;
+	font-weight: 400;
+  cursor: wait; 
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+	width: 100%;
+	margin: 1em 0;
+	text-transform: uppercase;
+	border-bottom: 3px solid rgba(0,0,0,0.05);
+	  background-color: #52bab3;}
+
+.btn:hover { 
+  opacity: .75;}
+
+/* Form -------------------- */
+
+label {
+  display: block;
+  margin-bottom: 0.5em;}
+
+input {
+  outline: 0;
+	border: none;
+	padding: 15px;
+	border-radius: .3em;}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	font-size: 1em;
+  color: #222;
+  font-weight: 300; 
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.2em;}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;}
+
+
+

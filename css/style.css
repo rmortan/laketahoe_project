@@ -56,11 +56,9 @@ img {
   margin-bottom: 20px;
   border-radius: 10px;}
 
-ul,
-ol {
-  margin: 30px 0;}
 
 li {
+  list-style: none;
   margin-bottom: 10px;}
 
 /* Pseudo-classes ------------------ */
@@ -81,11 +79,20 @@ a:active {
 /* Main Styles ---------------------**/ 
 
 .main-header {
-  padding-top: 170px;
+  padding-top: 20px;
   height: 850px;
   background: linear-gradient(#8c9fff, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
               #7e0000 url('../img/IMG_5187.jpg') no-repeat center;
+  background-size: cover;
+  color: white;}
+
+.main-header2 {
+  padding-top: 20px;
+  height: 850px;
+  background: linear-gradient(#8c9fff, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #7e0000 url('../img/cyborghuman.jpg') no-repeat center;
   background-size: cover;
   color: white;}
 
@@ -103,6 +110,7 @@ a:active {
 
 .primary-content,
 .main-header,
+.main-header2,
 .main-footer {
   text-align: center;}
 
@@ -144,12 +152,24 @@ a:active {
   color: white;
   text-align: left;
   padding: 18% 24%;
-  border-top: 10px solid #ab110c80;
+  border-top: 10px solid #1608c3;
   margin: 105px 0 60px;
   background: #434a52 url('../img/IMG_5183.jpg') no-repeat center;
   background-size: cover;
-  box-shadow:  -4px 6px 21px 17px rgba(0,0,0, .8);
-  border-radius: 1px;}
+  box-shadow: 8px 11px 35px 22px rgba(15, 18, 31, 0.8);
+  border-radius: 6px;}
+
+.wildlife2 {
+  color: white;
+  text-align: left;
+  padding: 18% 24%;
+  border-top: 10px solid #41c6de;
+  margin: 105px 0 60px;
+  background: #434a52 url('../img/cyborghuman.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: 8px 14px 46px 24px rgba(15, 14, 31, 0.8);
+  border-radius: 10px;}
+
 
 .arrow {
   width: 50px;
@@ -194,8 +214,8 @@ a:active {
     border-top: none;}
 
   .main-header {
-    max-height: 380px;
-    padding: 50px 25px 0;}
+    max-height: 820px;
+    padding: 50px 25px 0px 0px;}
 
   .title {
     font-size: 1.3rem;
@@ -219,3 +239,38 @@ a:active {
   .main-footer {
     padding: 20px 0;}
 }
+
+
+:root {
+  background: #e3effb;
+}
+
+:target {
+  background: #384047;
+  color: white;
+}
+
+#col-c:target {
+  background: #eff1f2;
+  color: initial;
+  box-shadow: 10px 10px 6px rgba(0,0,0, .2);
+}
+#col-b:target {
+  background: #cce6ff;
+  color: #660000;
+  box-shadow: 5px 10px 6px rgba(10,5,8, .2);
+}
+
+
+
+
+
+
+input:not([type="submit"]) {
+  box-shadow:inset 10px 5px 10px 5px rgba(10,5,8, .15);   
+}
+
+
+
+
+

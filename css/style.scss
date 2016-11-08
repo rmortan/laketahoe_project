@@ -1,0 +1,58 @@
+html, body {height:100%;width:100%;background-color:#eee;}
+$x:100;
+$x2:100 / $x - 1 + 1%;
+$width:800px;
+$height:700px;
+//Accepts random values
+$image-modifier:random(99999);
+.wrap {
+   height:$height;
+   width:$width - 4;
+   margin:0 auto;
+   position:relative;
+   top:50%;
+   overflow:hidden;
+   transform:translateY(-50%);
+   box-shadow:0 5px 10px rgba(black, .3);
+   border:6px solid white;
+   border-top:none;
+   background-color:white;
+   .s {
+      width:$width;
+      $content-modifier:random(3);
+      @if $content-modifier == 1 {
+         $content:things;
+         background-image:url('http://placem.at/#{$content}?w=#{$width}&h=410&txt=0&overlay_color=00000000&random=#{$image-modifier}');
+      } @else if $content-modifier == 2 {
+         $content:people;
+         background-image:url('http://placem.at/#{$content}?w=#{$width}&h=410&txt=0&overlay_color=00000000&random=#{$image-modifier}');
+      } @else {
+         $content:places;
+         background-image:url('http://placem.at/#{$content}?w=#{$width}&h=410&txt=0&overlay_color=00000000&random=#{$image-modifier}');
+      }
+      background-size:cover;
+      margin:0 auto;
+      box-sizing:border-box;
+      position:absolute;
+      @for $i from 1 through $x {
+         left:50%;
+         box-shadow:0 random(4)+px random(4)+px hsla(random(360), 50%, 50%, .2);
+         margin-left:-$width / 2;
+         height:random(0,3)+1%;
+         &:nth-child(#{$i}) {
+            top:$i * $x2;
+            background-position:50% $i * $x2;
+         }  
+         &:nth-child(#{random($i)}) { 
+            transform:translateX(random(0, 10) + 1 - 2px);
+            animation:shift random(500,3000)+ms ease-out infinite;
+         }
+      }
+   }
+}
+@keyframes shift {
+   50% {
+      filter:hue-rotate(random(200,360)+deg) blur(random(1)+px) opacity(random(194)+1%);
+      transform:translateX(random(0, 1) + 0 - 1.5px) skew(random(45) - 45 + deg);
+   }
+} 
