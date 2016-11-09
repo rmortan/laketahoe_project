@@ -80,7 +80,7 @@ a:active {
 
 .main-header {
   padding-top: 20px;
-  height: 850px;
+  height: 700px;
   background: linear-gradient(#8c9fff, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
               #7e0000 url('../img/IMG_5187.jpg') no-repeat center;
@@ -144,6 +144,10 @@ a:active {
 .secondary-content {
   width: 75%;
   padding-left: 50px;
+  background: linear-gradient(#8c9fff, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #7e0000 url('../img/avengersbanner.jpg') repeat center;
+  border-radius: 10px;
   padding-right: 50px;
   margin: auto;
   max-width: 960px;}
@@ -152,7 +156,7 @@ a:active {
   color: white;
   text-align: left;
   padding: 18% 24%;
-  border-top: 10px solid #1608c3;
+  border-top: 10px solid rgba(19, 59, 215, 0.28);
   margin: 105px 0 60px;
   background: #434a52 url('../img/IMG_5183.jpg') no-repeat center;
   background-size: cover;

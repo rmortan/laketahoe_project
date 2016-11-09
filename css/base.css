@@ -4,15 +4,15 @@ body {
 	font-family: 'Nunito', sans-serif;
 	line-height: 1.5;
 	color: #384047;
-	padding: 40px 0;}
+	padding: 0px 0px 0px 0px;}
 p {
 	font-family: sans-serif;
-	margin-bottom: 24px;}
+	margin-bottom: 0px;}
 hr {
   border: 0;
   height: 0;
   border-top: 1px dotted rgba(0, 0, 0, 0.2);
-  margin: 50px 0;}
+  margin: 0px 0px 0px 0px;}
 h1,
 h2 {
   margin: 0 0 30px 0;}
@@ -30,10 +30,15 @@ nav a {
 nav a:hover {
 	opacity: .75;}
 
+ul {
+  list-style-type: none;}
+
 /* Main -------------------- */
 
 .main-header {
   padding-top: 20px;
+  text-align: center;
+  list-style: none;
   height: 850px;
   background: linear-gradient(#8c9fff, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
@@ -43,6 +48,8 @@ nav a:hover {
 
 .main-header2 {
   padding-top: 20px;
+  list-style: none;
+  text-align: center;
   height: 850px;
   background: linear-gradient(#8c9fff, transparent 90%),
               linear-gradient(10deg, #fff, transparent),
@@ -108,5 +115,12 @@ input[type="password"] {
   display: table;
   clear: both;}
 
+.social-icon {
+  margin: 30px 10px 30px 10px;
+  width: 20px;
+  height: 20px;
+  margin: 20px 5px;}
+a {
+	text-decoration: none;}
 
 
