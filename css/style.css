@@ -9,8 +9,9 @@
 
 /* Base Styles --------------------**/
 
-* {
-  box-sizing: border-box;}
+nav {
+  display: block;
+  list-style-type: none;}
 
 body {
   color: #878787;
@@ -37,7 +38,7 @@ h1 {
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
-  margin: 12px 0 0;}
+  margin: 85px 0px -70px 0px;}
 
 h2 {
   font-size: 3.3125em;
@@ -64,11 +65,11 @@ li {
 /* Pseudo-classes ------------------ */
 
 a:link {
-  color: rgb(11, 71, 216);
+  color: rgb(206, 4, 4);
   text-decoration: none;}
 
 a:visited {
-  color: lightblue;}
+  color: #00fbdc;}
 
 a:hover {
   color: rgba(255, 169, 73, .4);}
@@ -82,7 +83,7 @@ a:active {
   padding-top: 20px;
   height: 700px;
   background: linear-gradient(#8c9fff, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),
+              linear-gradient(0deg, rgba(117, 123, 134, 0.19), transparent),
               #7e0000 url('../img/IMG_5187.jpg') no-repeat center;
   background-size: cover;
   color: white;}
@@ -101,10 +102,13 @@ a:active {
   letter-spacing: .065em;
   font-weight: 200;
   border-bottom: 2px solid;
-  padding-bottom: 10px;}
+  padding: 0px 0px 0px 10px;
+  margin: 0px 0px 0px 0px;}
 
 .intro {
   font-size: 1.25em; 
+  border-radius: 25px;
+  box-shadow: 16px 17px 29px 2px #19194d;
   line-height: 1.6; 
   color: initial;}
 
@@ -147,7 +151,8 @@ a:active {
   background: linear-gradient(#8c9fff, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
               #7e0000 url('../img/avengersbanner.jpg') repeat center;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   padding-right: 50px;
   margin: auto;
   max-width: 960px;}
@@ -242,37 +247,35 @@ a:active {
 
   .main-footer {
     padding: 20px 0;}
-}
 
+}
 
 :root {
-  background: #e3effb;
-}
+  background: #e3effb;}
 
 :target {
   background: #384047;
-  color: white;
-}
+  color: white;}
 
 #col-c:target {
   background: #eff1f2;
   color: initial;
-  box-shadow: 10px 10px 6px rgba(0,0,0, .2);
-}
+  box-shadow: 10px 10px 6px rgba(0,0,0, .2);}
+
 #col-b:target {
   background: #cce6ff;
   color: #660000;
-  box-shadow: 5px 10px 6px rgba(10,5,8, .2);
-}
+  box-shadow: 5px 10px 6px rgba(10,5,8, .2);}
 
 
-
-
+.btn {
+  cursor: wait;
+  box-shadow: 3px 0px 10px 5px #1f2e2e;
+  border-radius: 20px;}
 
 
 input:not([type="submit"]) {
-  box-shadow:inset 10px 5px 10px 5px rgba(10,5,8, .15);   
-}
+  box-shadow:inset 10px 5px 10px 5px rgba(10,5,8, .15);}
 
 
 
