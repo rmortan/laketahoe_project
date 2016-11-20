@@ -10,11 +10,13 @@
 /* Base Styles --------------------**/
 
 nav {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   display: block;
   list-style-type: none;}
 
 body {
-  color: #0041c1;  
+  color: #1a1a00;  
   margin: 0;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
@@ -61,24 +63,30 @@ ul {
   display: inline-block;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  background-color: #48525d;}
+  list-style: none;}
 
-li {
-  list-style: none;
-  padding: 0px 0px 0px 0px;
-  margin: 10px 0px 0px 0px;}
+ul li  {
+  display: block;}
 
-/* Pseudo-classes ------------------ */
+nav a {
+    font-size: .9em;
+    background: #3800ff;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    border-radius: 3px;}
+
 
 a:link {
-  color: #99ff99;
+  color: #f90404;
   text-decoration: none;}
 
 a:visited {
-  color: #fb2700;}
+  color: #009933;}
 
 a:hover {
-  color: rgba(255, 169, 73, .4);}
+  color: #0000ff;}
 
 a:active {
   color: lightcoral;}
@@ -152,7 +160,7 @@ a:active {
 
 .primary-content, 
 .secondary-content {
-  width: 75%;
+  width: 90%;
   padding-left: 50px;
   background: linear-gradient(#8c9fff, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
@@ -224,7 +232,7 @@ a:active {
 @media (max-width: 768px){
   .primary-content,
   .secondary-content {
-    width: 100%;
+    width: 90%;
     padding: 20px;
     border-top: none;}
 
@@ -285,8 +293,14 @@ a:active {
 
 
 input:not([type="submit"]) {
-  box-shadow:inset 10px 5px 10px 5px rgba(10,5,8, .15);}
+  box-shadow:inset 10px 5px 10px 5px rgba(10,5,8,0.15);}
 
+video {
+  border-radius: 10px;}
+
+.libtn {
+  background-color: rgba(89,161,197,0.64);
+  border-radius: 15px;}
 
 
 
