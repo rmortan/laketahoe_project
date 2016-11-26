@@ -40,7 +40,9 @@ h1 {
                 0 5px 10px rgba(233, 25, 25), 
                 0 10px 10px rgba(26, 0, 3), 
                 0 20px 20px rgba(32, 29, 7, 0.94);
-  margin: 85px 0px -70px 0px;}
+margin: 20px 0px -95px 0px;}
+
+
 
 h2 {
   font-size: 3.3125em;
@@ -66,17 +68,16 @@ ul {
   list-style: none;}
 
 ul li  {
-  display: block;}
+  display: inline-block;}
 
 nav a {
     font-size: .9em;
     background: #3800ff;
-    margin: 10px 10px 10px 10px;
+    padding: 1px 6px 0px 5px;
+    margin: 10px 0px 8px 0px;
     display: inline-block;
-    text-decoration: none;
-    padding: 0px 0px 0px 0px;
+    text-decoration: none;    
     border-radius: 3px;}
-
 
 a:link {
   color: #f90404;
@@ -86,7 +87,7 @@ a:visited {
   color: #009933;}
 
 a:hover {
-  color: #0000ff;}
+  color: #ff3300;}
 
 a:active {
   color: lightcoral;}
@@ -122,9 +123,12 @@ a:active {
 .intro {
   font-size: 1.25em; 
   border-radius: 25px;
+  font-family: sans-serif;
+
   box-shadow: 16px 17px 29px 2px #19194d;
   line-height: 1.6; 
-  color: initial;}
+  color: #fff;}
+
 
 .primary-content,
 .main-header,
@@ -149,27 +153,39 @@ a:active {
   display: inline-block;}
 
 .main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 10px solid #9f0505cc;}
+  padding-top: 0px;
+  padding-bottom: 5px;
+  border-bottom: 8px solid #052a9f;
+  font-size: .65rem;}
 
 .t-border {
   border-top: 2px solid #dfe2e6;}
 
 /* Layout Styles ------------------ */
 
-.primary-content, 
+.primary-content {
+  width: 90%;
+  padding-left: 50px;
+  background: linear-gradient(#8c9fff, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #7e0000 url('../img/2016-11-01 22.55.41.jpg') repeat center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 100%;}
+
 .secondary-content {
   width: 90%;
   padding-left: 50px;
   background: linear-gradient(#8c9fff, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
-              #7e0000 url('../img/avengersbanner.jpg') repeat center;
+              #7e0000 url('../img/stanleeartprint.jpg') repeat center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding-right: 50px;
   margin: auto;
-  max-width: 960px;}
+  max-width: 100%;}
 
 .wildlife {
   color: white;
@@ -196,7 +212,7 @@ a:active {
 
 .arrow {
   width: 50px;
-  margin-top: 150px;}
+  margin-top: 100px;}
 
 /* Floated Columns ------------------ */
 
@@ -299,8 +315,20 @@ video {
   border-radius: 10px;}
 
 .libtn {
-  background-color: rgba(89,161,197,0.64);
+  
   border-radius: 15px;}
+
+.logo {
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px 20px 20px 20px;}
+
+
+
+
 
 
 

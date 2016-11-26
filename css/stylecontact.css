@@ -1,33 +1,67 @@
 
 :root {
-  background: #e3effb;
-}
+  background: #e3effb;}
 
 :target {
   background: #384047;
-  color: white;
-}
+  color: white;}
 
 #col-c:target {
   background: #eff1f2;
   color: initial;
-  box-shadow: 10px 10px 6px rgba(0,0,0, .2);
-}
+  box-shadow: 10px 10px 6px rgba(0,0,0, .2);}
+
 #col-b:target {
 	background: #cce6ff;
 	color: #660000;
-	box-shadow: 5px 10px 6px rgba(10,5,8, .2);
-}
+	box-shadow: 5px 10px 6px rgba(10,5,8, .2);}
+
+#top {
+ ;}
+
+nav {
+  padding: 10px 0px 15px 10px;
+  margin: 7px 0px 2px 10px;
+  display: block;
+  list-style-type: none;}
+
+nav a:hover {
+  opacity: .75;}
+
+.content1 {
+  padding-left: 1em;
+  padding-right: 1em;}
+
+.
 
 
+.btn {
 
-
+  font-size: 0.8rem;
+  font-weight: 700;  
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  cursor: wait; 
+  border-radius: 20px;}
 
 
 input:not([type="submit"]) {
-	box-shadow:inset 10px 5px 10px 5px rgba(10,5,8, .15); 	
-}
+  box-shadow:inset 10px 5px 10px 5px rgba(10,5,8,0.15);}
 
+video {
+  border-radius: 10px;}
+
+.libtn {
+  display: inline-block;
+  border-radius: 10px;}
+
+.logo {
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px 20px 20px 20px;}
 
 
 

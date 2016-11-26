@@ -19,18 +19,20 @@ h2 {
 
 nav a {
 	font-size: .9em;
+  text-align: center;
 	background: #0b289e;
-	margin: 10px 10px 0px 10px;
+  padding: 1px 6px 0px 5px;
+	margin: 10px 5px 5px 2px;
 	color: white;
 	display: inline-block;
 	text-decoration: none;
-	padding: 3px 8px 0px 0px;
-	border-radius: 13px;}
+	border-radius: 4px;}
 
 nav a:hover {
 	opacity: .75;}
 
 ul {
+  display: inline;
   list-style-type: none;}
 
 /* Main -------------------- */
@@ -40,20 +42,20 @@ ul {
   text-align: center;
   list-style: none;
   height: 850px;
-  background: linear-gradient(#8c9fff, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),
-              #7e0000 url('../img/IMG_5187.jpg') no-repeat center;
+  background: linear-gradient(#8c9fff, transparent 0%),
+              linear-gradient(0deg, #fff, transparent 2%),
+              #7e0000 url('../img/2016-11-01 22.55.39-2.jpg') no-repeat center;
   background-size: cover;
   color: white;}
 
-.main-header2 {
+.wildlife3 {
   padding-top: 20px;
   list-style: none;
   text-align: center;
   height: 850px;
-  background: linear-gradient(#8c9fff, transparent 90%),
-              linear-gradient(10deg, #fff, transparent),
-              #7e0000 url('../img/cyborghuman.jpg') no-repeat center;
+  background: linear-gradient(#8c9fff, transparent 0%),
+              linear-gradient(0deg, #fff, transparent),
+              #7e0000 url('../img/2016-11-01 00.16.34.jpg') no-repeat center;
   background-size: cover;
   color: white;}
 
@@ -65,6 +67,7 @@ ul {
 	padding-top: 40px;}
 
 .col {
+  color: #ffff99;
 	float: left;
 	width: 32.421%;
 	padding: 15px;}
@@ -81,10 +84,16 @@ ul {
 	margin: 1em 0;
 	text-transform: uppercase;
 	border-bottom: 3px solid rgba(0,0,0,0.05);
-	  background-color: #52bab3;}
+	background-color: #52bab3;}
 
 .btn:hover { 
   opacity: .75;}
+
+.main-footer {
+  padding: 20px 0px 20px 0px;
+  margin: 0px 0px 0px 0px;
+  font-size: .65rem;
+  text-align: center;}
 
 /* Form -------------------- */
 
